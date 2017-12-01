@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+body {
+  background-color: #1d3557;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h3 {
+  font-family: "Spectral SC", serif;
+}
+p {
+  font-family: "Playfair Display", serif;
+}
+@media all and (min-width: 768px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+}
+@media all and (min-width: 960px) {
+  .font-control {
+    font-size: 34px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+  .font-control {
+    font-size: 3.4vw;
+  }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+  .font-control {
+    font-size: 5vw;
+  }
+}
+
+@media all and (min-width: 960px) {
+  .font-control-project {
+    font-size: 26px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+  .font-control-project {
+    font-size: 2.9vw;
+  }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+  .font-control-project {
+    font-size: 2.7vw;
+  }
+}
+
+#myVideo {
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 0;
+}
+
+.navbar {
+  background-color: #1d3557;
+  position: relative;
+  position: sticky;
+}
+
+#headline {
+  background-color: #f1faee;
+  text-align: center;
+}
+
+.main-section {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+#aboutMeHeader {
+  background-color: yellow;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#personalDescription {
+  background-color: yellow;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#projectHeader {
+  background-color: #a8dadc;
+  text-align: center;
+  padding-top: 60px;
+}
+#portfolio {
+  background-color: #a8dadc;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#connectHeader {
+  background-color: #d23440;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#waysToConnect {
+  background-color: #d23440;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.connectImage {
+  height: auto;
+  width: auto;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.proj-image:hover {
+  opacity: 0.5;
+}
