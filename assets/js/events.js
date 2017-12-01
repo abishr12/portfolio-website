@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  console.log("hello");
+  console.log("JS is loaded");
   // Add smooth scrolling to all links
   $("#scrollAboutMe").on("click", function(event) {
     // Make sure this.hash has a value before overriding default behavior
