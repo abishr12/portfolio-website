@@ -145,6 +145,14 @@ p {
   min-height: 150px;
 }
 
+.modalImage {
+  height: auto;
+  width: auto;
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 35px;
+}
+
 .proj-image:hover {
   opacity: 0.5;
 }
