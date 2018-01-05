@@ -158,6 +158,11 @@ p {
   margin-right: 35px;
 }
 
+.proj-image {
+  width: 150px;
+  height: 150px;
+}
+
 .proj-image:hover {
   opacity: 0.5;
 }
